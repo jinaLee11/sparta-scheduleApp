@@ -15,7 +15,7 @@ Spring Boot 기반의 일정관리 어플리케이션입니다.
 📕 일정 api
 기능 | METHOD | URL | request | response/상태코드
 -- | -- | -- | -- | --
-일정 생성 | POST | /schedules | { “writer” : String, “title” : String, “content” : String } | 201 Created : 생성 성공  { “id” : long,  “writer” : String, “title” : String, “content” : String, }
+일정 생성 | POST | /schedules | { “writer” : String, “title” : String, “content” : String } | 201 Created : 생성 성공<br>  { “id” : long,  “writer” : String, “title” : String, “content” : String, }
 전체 일정 조회 | GET | /schedules |   | 200 OK : 조회 성공 { “id” : long, “writer” : String, “title” : String, “content” : String, }
 단일 일정 조회 | GET | /schedules/{id} |   | 200 OK : 조회 성공 { “id” : long “writer” : String, “title” : String, “content” : String, }
 일정 수정 | PATCH | /schedules/{id} | { “title” : String, “content” : String } | 200 OK : 수정 성공 { “id” : long “writer” : String, “title” : String, “content” : String, }
