@@ -39,7 +39,7 @@ user 1 : schedule n
 ## 🗂️ 패키지 구성
 📁 sparta-scheduleApp <br>
 ㄴ📁 src <br>
-<nbsp>ㄴ📁 main
+<&nbsp>ㄴ📁 main
 
 
 
