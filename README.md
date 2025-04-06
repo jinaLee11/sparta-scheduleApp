@@ -29,9 +29,19 @@ Spring Boot 기반의 일정관리 어플리케이션입니다.
 비밀번호 수정 | PATCH | /users/{id} | { "oldPassword" :  String,<br> "newPassword" : String } | 200 OK : 수정 성공
 회원 삭제 | DELETE | /users/{id} |   | 200 OK : 삭제 성공
 
-
 ## 🛠️ ERD
 <img width="202" alt="Image" src="https://github.com/user-attachments/assets/c1a1c678-eb17-4f5f-ad31-cb7ff45b61ae" />
+user 1 : schedule n
 
 ## 🛠️ SQL
 <img width="765" alt="Image" src="https://github.com/user-attachments/assets/cbae78f6-ab59-4667-8dd6-35d83235552a" />
+
+## 🗂️ 패키지 구성
+📁 sparta-scheduleApp <br>
+ㄴ📁 src <br>
+<nbsp>ㄴ📁 main
+
+
+
+## 🔎 트러블 슈팅
+https://iammu.tistory.com/42
