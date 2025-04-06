@@ -39,25 +39,32 @@ Spring Boot 기반의 일정관리 어플리케이션입니다.
 ## 🗂️ 주요 패키지 구성
 &nbsp;&nbsp;&nbsp;&nbsp; 📁 spartascheduleapp <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleController : 일정 관련 컨트롤러 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UserController : 유저 관련 컨트롤러 <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 dto <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 controller <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 schedule : 일정 관련 dto <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 CreateScheduleRequestDto :  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleRequestDto <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleResponseDto <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 user <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 SignupRequestDto : 회원가입(C) 요청 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 SignupResponseDto : 회원가입(C) 응답 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UpdatePasswordRequestDto : 비밀번호 변경(U) 요청 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UserResponseDto : 특정회원 조회(R) 응답  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 entity <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 controller <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 controller <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 controller <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 repository <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 controller <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 controller <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 service <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 impl <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 ScheduleService <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 UserService <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 impl <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleService <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UserService <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 SpartaScheduleAppApplication.java<br>
 &nbsp;&nbsp;&nbsp;&nbsp; 📁 resources <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 application.properties <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 application.properties <br> 
 
 
 
