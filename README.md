@@ -31,23 +31,8 @@ Spring Boot 기반의 일정관리 어플리케이션입니다.
 
 
 ## 🛠️ ERD
-schedule
---
-id(PK)
-writer
-title
-content
-createdAt
-updatedAt
-
-user
---
-id(PK)(FK)
-username
-email
-password
-createdAt
-updatedAt
+<img width="197" alt="Image" src="https://github.com/user-attachments/assets/b08e4b71-bf90-43b7-b2de-77696e0c6d01" />
+<img width="204" alt="Image" src="https://github.com/user-attachments/assets/fbaea062-a40b-4736-a40d-2b96a8bd98dc" />
 
 ## 🛠️ SQL
 <img width="765" alt="Image" src="https://github.com/user-attachments/assets/cbae78f6-ab59-4667-8dd6-35d83235552a" />
