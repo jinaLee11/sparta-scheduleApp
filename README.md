@@ -39,7 +39,16 @@ user 1 : schedule n
 ## 🗂️ 패키지 구성
 📁 sparta-scheduleApp <br>
 ㄴ📁 src <br>
-<&nbsp>ㄴ📁 main
+&nbsp ㄴ📁 main <br>
+&nbsp&nbsp ㄴ📁 java/com/example/spartascheduleapp <br>
+&nbsp&nbsp&nbsp ㄴ📁 controller <br>
+&nbsp&nbsp&nbsp ㄴ📁 dto <br>
+&nbsp&nbsp&nbsp ㄴ📁 entity <br>
+&nbsp&nbsp&nbsp ㄴ📁 repository <br>
+&nbsp&nbsp&nbsp ㄴ📁 service <br>
+&nbsp&nbsp&nbsp ㄴ📄 SpartaScheduleAppApplication.java<br>
+&nbsp&nbsp ㄴ📁 resources <br>
+&nbsp&nbsp&nbsp ㄴ📄 application.properties <br> 
 
 
 
