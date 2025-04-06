@@ -43,25 +43,27 @@ Spring Boot 기반의 일정관리 어플리케이션입니다.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UserController : 유저 관련 컨트롤러 <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 dto <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 schedule : 일정 관련 dto <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 CreateScheduleRequestDto :  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleRequestDto <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleResponseDto <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 CreateScheduleRequestDto : 일정생성(C) 요청  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleRequestDto : 일정 수정(U) 요청 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleResponseDto : 일정 생성(C), 조회(R), 수정(U) 응답 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 user <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 SignupRequestDto : 회원가입(C) 요청 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 SignupResponseDto : 회원가입(C) 응답 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UpdatePasswordRequestDto : 비밀번호 변경(U) 요청 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UserResponseDto : 특정회원 조회(R) 응답  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UserResponseDto : 특정유저 조회(R) 응답  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 entity <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 controller <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 BaseEntity : 생성일, 수정일 관련 엔티티 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 Schedule : 일정 엔티티 (BaseEntity 상속받음) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 User : 유저 엔티티 (BaseEntity 상속받음) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 repository <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 controller <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleRepository <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UserRepository <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 service <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 impl <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleService <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UserService <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleServiceImpl : 일정 서비스 계층 구현체  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UserServiceImpl : 유저 서비스 계층 구현체  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 ScheduleService : 일정 서비스 인터페이스 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 UserService : 유저 서비스 인터페이스<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 SpartaScheduleAppApplication.java<br>
 &nbsp;&nbsp;&nbsp;&nbsp; 📁 resources <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 application.properties <br> 
