@@ -19,7 +19,7 @@ public class Schedule extends BaseEntity { //extends BaseEntity 해줘야 작성
     @Column(nullable = false)
     private String title;
 
-    private String contents;
+    private String content;
 
     // 연관관계 설정
     @ManyToOne // 단방향 (schedule N : User 1)
@@ -34,10 +34,15 @@ public class Schedule extends BaseEntity { //extends BaseEntity 해줘야 작성
          */
     }
 
-    public Schedule(String writer, String title, String contents) {
+    public Schedule(String writer, String title, String content) {
         this.writer = writer;
         this.title = title;
-        this.contents = contents;
+        this.content = content;
+    }
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
     }
 
 }

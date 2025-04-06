@@ -15,7 +15,7 @@ public class ScheduleResponseDto {
 
     // 전체조회 때 Schedule -> ScheduleResponseDto 로 반환해주는 메서드 필요해서 만들어 줌
     public static ScheduleResponseDto toDto(Schedule schedule){
-        return new ScheduleResponseDto(schedule.getId(),schedule.getWriter(),schedule.getTitle(),schedule.getContents());
+        return new ScheduleResponseDto(schedule.getId(),schedule.getWriter(),schedule.getTitle(),schedule.getContent());
     }
 
 }
