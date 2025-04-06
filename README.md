@@ -37,29 +37,26 @@ Spring Boot 기반의 일정관리 어플리케이션입니다.
 <img width="765" alt="Image" src="https://github.com/user-attachments/assets/cbae78f6-ab59-4667-8dd6-35d83235552a" />
 
 ## 🗂️ 주요 패키지 구성
-📁 sparta-scheduleApp <br>
-ㄴ📁 src <br>
-&nbsp;&nbsp; ㄴ📁 main <br>
-&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 java/com/example/spartascheduleapp <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 controller <br>
+&nbsp;&nbsp;&nbsp;&nbsp; 📁 spartascheduleapp <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 controller <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 dto <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 dto <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 controller <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 entity <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 entity <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 repository <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 repository <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 controller <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 service <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📁 service <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 impl <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 ScheduleService <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 UserService <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 SpartaScheduleAppApplication.java<br>
-&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📁 resources <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📄 SpartaScheduleAppApplication.java<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 📁 resources <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ㄴ📄 application.properties <br> 
 
 
